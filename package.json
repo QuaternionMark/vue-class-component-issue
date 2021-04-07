@@ -4,7 +4,7 @@
     "description": "",
     "main": "src/main.ts",
     "scripts": {
-        "frontend-build": "./node_modules/.bin/vue-cli-service serve"
+        "frontend-build": "./node_modules/.bin/vue-cli-service serve",
         "build": "./node_modules/.bin/vue-cli-service build"
     },
     "author": "",
