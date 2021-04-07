@@ -1,13 +1,13 @@
 <template>
-<p>Value is: {{ booleanProperty }},
-    Type is: {{ typeof booleanProperty }}</p>
+<p>Value really is: {{ booleanProperty }},
+    Type really is: {{ typeof booleanProperty }}</p>
 </template>
 
 <script lang="ts">
 import { Options, prop, Vue } from "vue-class-component";
 
 class Props {
-    public booleanProperty = prop<boolean>({});
+    public booleanProperty = prop<boolean>({type: Boolean});
 }
 
 export default class HelloWorld extends Vue.with(Props) {
