@@ -7,7 +7,7 @@
 import { Options, prop, Vue } from "vue-class-component";
 
 class Props {
-    public booleanProperty = prop<boolean>({});
+    public booleanProperty = prop<boolean>({type: Boolean});
 }
 
 export default class HelloWorld extends Vue.with(Props) {
